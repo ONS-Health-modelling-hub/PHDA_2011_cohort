@@ -1,24 +1,4 @@
-"""
---Large Session--
 
-Session designed for running Production pipelines on large administrative data, 
-rather than just survey data. 
-Will often develop using a sample and a smaller session then change to this 
-once the pipeline is complete.
-
-Details:
-10g of memory and 5 executors
-1g of memory overhead
-5 cores, which is generally optimal on larger sessions
-The default number of 200 partitions
-
-Use case:
-Production pipelines on administrative dataCannot be used in Dev Test, 
-as it exceeds the 9 GB limit per executor
-
-Example of actual usage:
-One administrative dataset of 100 million rows
-Many calculations"""
 
 ##############################################################################
 # Import Modules 
