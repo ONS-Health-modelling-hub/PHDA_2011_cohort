@@ -22,7 +22,7 @@ os.chdir(dir)
 # Import HALE Reusable Functions
 ##############################################################################
 
-sys.path.insert(1, f'/home/cdsw/{os.getcwd().split("/")[3]}/hale_engineering/haleReusableFunctions')
+sys.path.insert(1, f'/home/cdsw/{os.getcwd().split("/")[3]}/s')
 import pysparkFunctions as pf
 
 
